@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --cor1: #033859;
+    --cor2: #024059;
+    --cor3: #C6D8D3;
+    --cor4: #D98032;
+    --cor5: #F2B680;
+    --cor6: #F27127;
+
+    --font1: 'Hind', sans-serif;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .3s ease
+}
+
+/* Header */
+
+#top-caption {
+    font-family: var(--font1);
+    background-image: linear-gradient(45deg, #024059 2%, #C6D8D3);
+}
+
+#top-caption>header {
+    position: relative;
+}
+
+#top-caption>header>#logo {
+    width: 200px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#top-caption>header #logo img {
+    width: 150px;
+}
+
+#top-caption>header #burguer {
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+#top-caption>header #burguer:hover {
+    color: #F27127;
+}
+
+#top-caption>header>menu {
+    width:
+        220px;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0;
+    display: none;
+}
+
+#top-caption>header>menu>ul {
+    list-style-type: none;
+}
+
+#top-caption>header>menu>ul>li {
+    border-bottom: 2px solid rgba(198, 216, 211, 0.247);
+}
+
+#top-caption>header>menu>ul>li>a {
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+    transition: .4s;
+}
+
+#top-caption>header>menu>ul>li>a:hover {
+    color: #F27127;
+}
+
+#top-caption>h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 1.4em;
+}
+
+.hide {
+    display: none;
+}
+
+section#saiba-mais {
+    text-align: center;
+    padding: 80px;
+    background-image: url(../images/truck-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+section#saiba-mais>div.form-container>h2 {
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 3px 3px 8px black;
+}
+
+/* CSS */
+.button-42 {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial, sans-serif;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 150px;
+    z-index: 9;
+    border: 0;
+    margin-top: 15px;
+    transition: box-shadow .2s;
+}
+
+.button-42:hover {
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+/* rastreamento */
+
+#rastreamento {
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
+    padding: 20px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.473);
+}
+
+#rastreamento h2 {
+    color: #024059;
+    margin-bottom: 4px;
+}
+
+#rastreamento img {
+    width: 30%;
+    display: inline-block;
+    padding: 20px;
+}
+
+#risco {
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+#risco h2 {
+    color: #024059;
+    margin-bottom: 4px;
+}
+
+#brand-1 > img , #brand-2 > img {
+    width: 40%;
+    display: inline-block;
+    padding: 30px;
+}
+
+
+
+
