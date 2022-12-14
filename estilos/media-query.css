@@ -4,8 +4,35 @@
         height: 151.5px;
     }
 
-    header #burguer {
+    #logo {
+        position: absolute;
+        display: inline-block;
+        width: 150px;
+        top: 50%;
+        padding-top: 0;
+        transform: translateY(-50%);
+    }
+
+    #top-caption > header #burguer {
         display: none;
+    }
+
+    #top-caption > header > menu {
+        position: absolute;
+        right: 0;
+        padding: 10px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    #top-caption > header > menu > ul {
+        position: absolute;
+        right: 4%;
+    }
+
+    #top-caption > header > menu > ul > li {
+        float: left;
+        border: none;
     }
 
 }
