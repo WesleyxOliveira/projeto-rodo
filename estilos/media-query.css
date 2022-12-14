@@ -9,6 +9,7 @@
         display: inline-block;
         width: 150px;
         top: 50%;
+        left: 10px;
         padding-top: 0;
         transform: translateY(-50%);
     }
