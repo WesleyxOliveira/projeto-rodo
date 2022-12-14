@@ -84,7 +84,7 @@
     transition: .4s;
 }
 
-#top-caption>header>menu>ul>li>a:hover {
+#top-caption > header > menu > ul > li > a:hover {
     color: #F27127;
 }
 
