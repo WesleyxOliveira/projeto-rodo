@@ -12,3 +12,6 @@ function showMenu() {
         itens.style.display = "none";
     }
 }
+
+console.log(window.innerWidth);
+console.log(window.innerHeight;
