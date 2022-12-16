@@ -157,9 +157,8 @@ section#saiba-mais>div.form-container>h2 {
 #rastreamento {
     text-align: center;
     max-width: 90%;
-    min-height: 600px;
     margin: auto;
-    padding: 40px;
+    padding: 50px 0;
     border-bottom: 2px solid rgba(128, 128, 128, 0.473);
 }
 
@@ -179,9 +178,9 @@ section#saiba-mais>div.form-container>h2 {
 #risco {
     text-align: center;
     max-width: 90%;
-    min-height: 600px;
     margin: auto;
-    padding: 40px;
+    padding: 50px 0;
+    border-bottom: 2px solid gray;
 }
 
 #risco h2 {
@@ -195,6 +194,22 @@ section#saiba-mais>div.form-container>h2 {
     margin-top: 30px;
     display: inline-block;
     padding: 30px;
+}
+
+#seguro {
+    text-align: center;
+}
+
+#seguro img {
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+#seguro h2 {
+    color: #024059;
+    margin-bottom: 4px;
+    margin-top: 30px;
+    padding: 50px 0;
 }
 
 footer {
