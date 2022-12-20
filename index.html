@@ -10,9 +10,13 @@
     <title>RODORIO TRANSPORTES | HOME</title>
     <!--CSS Mobile First-->
     <link rel="stylesheet" href="./estilos/style.css">
+    <!--CSS Media Query-->
+    <link rel="stylesheet" href="./estilos/media-query.css">
+    <!--js-->
+    <script src="./js/script.js"></script>
 </head>
 
-<body>
+<body onresize="mudouTamanho()">
     <div id="container-principal">
         <header>
             <div id="logo">
@@ -28,44 +32,46 @@
                 </ul>
             </menu>
         </header>
-        <section id="top-caption">
-            <h1 class="hide">
-                Transporte <br>
-                de Carga
-            </h1>
-            <img class="hide" src="./images/truck_2.png" alt="" width="50%">
-        </section>
-        <section id="saiba-mais">
-            <div class="form-container">
-                <h2>Transporte de Carga</h2>
-                <button class="button-42" role="button">Saiba Mais</button>
-            </div>
-        </section>
-        <section id="rastreamento">
-            <h2>Tecnologia de rastreamento</h2>
-            <img src="./images/AutotracLogo.png" alt="logo autotrac"
-                title="Autotrac - Tecnologia para rastreamento de frotas">
-            <img src="./images/logo-sascar.png" alt="logo sascar"
-                title="Sascar: A maneira mais inteligente de gerenciar sua frota">
-            <img src="./images/onix-sat-logo.png" alt="Logo OnixSat" title="OnixSat">
-        </section>
-        <section id="risco">
-            <h2>Gerenciamento de Risco</h2>
-            <div id="brand-1">
-                <img src="./images/pamcary.png" alt="Logo pamcary"
-                    title="Pamcary - Líder em seguros e gestão de risco no transporte">
-                <img src="./images/logo-buonny.png" alt="Logo bounny"
-                    title="Buonny | Gerenciamento de Riscos - Tecnologia Que Aproxima">
-            </div>
-            <div id="brand-2">
-                <img src="./images/komando.png" alt="Logo Komando" title="Komando Gerenciamento de Riscos">
-                <img src="./images/skytech-logo.jpg" alt="Logo skytech" title="Skytech - Exelência em gestão de risco">
-            </div>
-        </section>
-        <section id="seguro">
-            <h2>Seguro</h2>
-            <img src="./images/Axa-logo.png" alt="Logo axa seguros">
-        </section>
+        <div id="section-container">
+            <section id="top-caption">
+                <h1 class="hide">
+                    Transporte <br>
+                    de Carga
+                </h1>
+                <img class="hide" src="./images/truck_2.png" alt="" width="50%">
+            </section>
+            <section id="saiba-mais">
+                <div class="form-container">
+                    <h2>Transporte de Carga</h2>
+                    <button class="button-42" role="button">Saiba Mais</button>
+                </div>
+            </section>
+            <section id="rastreamento">
+                <h2>Tecnologia de rastreamento</h2>
+                <img src="./images/AutotracLogo.png" alt="logo autotrac"
+                    title="Autotrac - Tecnologia para rastreamento de frotas">
+                <img src="./images/logo-sascar.png" alt="logo sascar"
+                    title="Sascar: A maneira mais inteligente de gerenciar sua frota">
+                <img src="./images/onix-sat-logo.png" alt="Logo OnixSat" title="OnixSat">
+            </section>
+            <section id="risco">
+                <h2>Gerenciamento de Risco</h2>
+                <div id="brand-1">
+                    <img src="./images/pamcary.png" alt="Logo pamcary"
+                        title="Pamcary - Líder em seguros e gestão de risco no transporte">
+                    <img src="./images/logo-buonny.png" alt="Logo bounny"
+                        title="Buonny | Gerenciamento de Riscos - Tecnologia Que Aproxima">
+                </div>
+                <div id="brand-2">
+                    <img src="./images/komando.png" alt="Logo Komando" title="Komando Gerenciamento de Riscos">
+                    <img src="./images/skytech-logo.jpg" alt="Logo skytech" title="Skytech - Exelência em gestão de risco">
+                </div>
+            </section>
+            <section id="seguro">
+                <h2>Seguro</h2>
+                <img src="./images/Axa-logo.png" alt="Logo axa seguros">
+            </section>
+        </div>
         <footer>
             <p>
                 Matriz - Avenida Guilherme Cotching, 997 - CEP 02113 - 013 - Vila Maria - São Paulo - SP

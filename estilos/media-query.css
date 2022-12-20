@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    header #burguer {
+        display: none;
+    }
+    
+    #itens {
+        width: 100%;
+        padding: 10px 0 10px 10px;
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+        background-color: rgba(2, 64, 89, 0.356);
+    }
+    
+    menu ul li {
+        padding: 4px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    
+    body {
+        background-color: #C6D8D3;
+    }
+
+    header #burguer {
+        display: none;
+    }
+    
+    #itens {
+        width: 100%;
+        padding: 10px 0 10px 10px;
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+        background-color: rgba(2, 64, 89, 0.356);
+    }
+    
+    menu ul li {
+        padding: 4px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    #section-container {
+        width: 992px;
+        margin: auto;
+    }
+}
+
+/* Telas Grandes */
+
+@media screen and (min-width: 1200px) {
+
+    body {
+        background-color: #C6D8D3;
+    }
+
+    header #burguer {
+        display: none;
+    }
+    
+    #itens {
+        width: 100%;
+        padding: 10px 0 10px 10px;
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+        background-color: rgba(2, 64, 89, 0.356);
+    }
+    
+    menu ul li {
+        padding: 4px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    #section-container {
+        width: 1200px;
+        margin: auto;
+    }
+}
