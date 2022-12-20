@@ -1,43 +1,37 @@
-@media screen and (min-width: 768px) and (max-width: 992px){
-
-    body, html {
-        height: 100vh;
-    }
-    
-    header {
-        height: 151.5px;
-    }
-
-    #logo {
-        position: absolute;
-        display: inline-block;
-        width: 150px;
-        top: 50%;
-        left: 10px;
-        padding-top: 0;
-        transform: translateY(-50%);
-    }
-
-    #top-caption > header #burguer {
-        display: none;
-    }
-
-    #top-caption > header > menu {
-        position: absolute;
-        right: 0;
-        padding: 10px;
-        display: inline-block;
-        width: 100%;
-    }
-
-    #top-caption > header > menu > ul {
-        position: absolute;
-        right: 4%;
-    }
-
-    #top-caption > header > menu > ul > li {
-        float: left;
-        border: none;
-    }
-
+header {
+    height: 100px;
 }
+
+#top-caption> header > #logo {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#top-caption > header > menu {
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+
+#top-caption > header > menu > ul > li {
+    display: inline;
+    border-bottom: none;
+}
+
+#top-caption > header > menu > ul > li:hover {
+    border-bottom: 1px solid rgba(198, 216, 211, 0.247);
+}
+
+#top-caption > header > menu > ul > li> a {
+    margin-left: 0;
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+#top-caption > header #burguer {
+    display: none;
+}
+
