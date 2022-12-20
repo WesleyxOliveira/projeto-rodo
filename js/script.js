@@ -6,6 +6,3 @@ function showMenu() {
     }
 }
 
-function mudouTamanho() {
-    if(body.innerWidth ==)
-}
