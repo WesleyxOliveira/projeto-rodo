@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem Somos</title>
+    <!--Google icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--CSS Mobile First-->
+    <link rel="stylesheet" href="./estilos/style.css">
+    <!--CSS Media Query-->
+    <link rel="stylesheet" href="./estilos/media-query.css">
+    <!--js-->
+    <script src="./js/script.js"></script>
+    <style>
+            body {
+                background-color: #C6D8D3;
+            }
+
+            #apresentacao-intro {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(./images/truck-3.jpg);
+            height: 300px;
+            background-size: cover;
+            background-position: left center;
+        }
+
+        #apresentacao-intro h1 {
+            font-size: 3em;
+            color: #fff;
+            text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.459);
+            text-align: center;
+            line-height: 300px;
+        }
+
+        #descricao-container {
+            width: 80%;
+            background-color: #fff;
+            padding: 1em;
+            margin: auto;
+        }
+
+        h2 {
+            color: #033859;
+            margin: 10px 0;
+        }
+
+        p {
+            line-height: 2em;
+            text-align: left;
+            text-indent: 30px;
+        }
+
+        .destaque {
+            font-weight: bold;
+            color: #033859;
+        }
+    </style>
+</head>
+<body>
+    <div id="container-principal">
+        <header>
+            <div id="logo">
+                <img src="./images/3e19f99227164132b30516e24318d345.jpg" alt="">
+            </div>
+            <span id="burguer" class="material-icons" title="Menu" onclick="clickMenu()">menu</span>
+            <menu id="itens">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="quem-somos.html">Quem somos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Politica de Privacidade</a></li>
+                </ul>
+            </menu>
+        </header>
+        <section id="apresentacao-intro">
+            <h1>Quem Somos</h1>
+        </section>
+        <section id="apresentacao-descricao">
+            <div id="descricao-container">
+                <h2>A Empersa</h2>
+                <p>Após estudos e análise do mercado no segmento de transporterodoviário, constatamos que a segurança e qualidade são os principais fatores, tornando-se exigências primordiais dos clicentes que utilizam tais serviços.</p>
+                <h2>Missão</h2>
+                <p>
+                    Entregar soluções logísticas, com foco em trasporte lotação para atendder a demanda existente no mercado, proporcionando aos nossos clientes o que é fundamental nesse ramo, <span class="destaque">Segurança</span> e <span class="destaque">Qualidade</span>.
+                </p>
+            </div>
+        </section>
+        <footer>
+            <p>
+                Matriz - Avenida Guilherme Cotching, 997 - CEP 02113 - 013 - Vila Maria - São Paulo - SP
+                R 9 SN Qd 27 Lote 8-11 - Polo Empresarial Goias - Aparecida de Goiania - Goias- CEP 74985-130
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
