@@ -30,6 +30,13 @@
             text-shadow: 6px 7px 11px #0000003d;
         }
 
+        p {
+            color: #fff;
+            font-weight: bold;
+            text-shadow: 6px 7px 11px #0000003d;
+            margin-bottom: 10px;
+        }
+
         form {
             margin: auto;
             width: 80%;
@@ -39,7 +46,8 @@
             box-shadow: 6px 7px 11px #0000003d;
         }
 
-        form input, select {
+        form input,
+        select {
             width: 100%;
             margin-bottom: 1em;
             padding: .8em;
@@ -52,7 +60,36 @@
             border-color: lightgray;
         }
 
-        @media screen and (min-width: 768px) and (max-width: 992px){
+        button[type='submit'] {
+            background-color: initial;
+            background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+            border-radius: 6px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+            color: #FFFFFF;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial, sans-serif;
+            height: 40px;
+            line-height: 40px;
+            outline: 0;
+            overflow: hidden;
+            padding: 0 20px;
+            pointer-events: auto;
+            position: relative;
+            text-align: center;
+            touch-action: manipulation;
+            user-select: none;
+            -webkit-user-select: none;
+            vertical-align: top;
+            white-space: nowrap;
+            width: 150px;
+            z-index: 9;
+            border: 0;
+            margin-top: 15px;
+            transition: box-shadow .2s;
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 992px) {
             section#contato {
                 width: 768px;
                 margin: auto;
@@ -68,7 +105,7 @@
     </style>
 </head>
 
-<body>
+<body onresize="mudouTamanho()">
     <div id="container-principal">
         <header>
             <div id="logo">
@@ -87,9 +124,13 @@
         </header>
         <section id="contato">
             <h1>Entre em contato</h1>
+            <p>Contato</p>
+            <p>SP  - 11 -  2631-3129</p>
+            <p>GO  - 11 - 95963-3844</p>
             <form action="#" method="post" autocomplete="on">
                 <input type="text" name="nome" id="nome" placeholder="Nome *" required autocomplete="name"> <br>
-                <input type="email" name="email" id="email" placeholder="email *" required aria-placeholder="email"> <br>
+                <input type="email" name="email" id="email" placeholder="email *" required aria-placeholder="email">
+                <br>
                 <select name="servico" id="servico">
                     <option value="" selected>Selecione uma opção</option>
                     <option value="cotacao">Cotação</option>
@@ -100,6 +141,7 @@
                 </select> <br>
                 <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem aqui * ">
                 </textarea>
+                <button type="submit">Enviar</button>
             </form>
         </section>
         <footer>
