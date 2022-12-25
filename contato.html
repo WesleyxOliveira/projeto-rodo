@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Contato</title>
+    <!--CSS Mobile First-->
+    <link rel="stylesheet" href="./estilos/style.css">
+    <!--CSS Media Query-->
+    <link rel="stylesheet" href="./estilos/media-query.css">
+    <!--js-->
+    <script src="./js/script.js" defer></script>
+    <style>
+        section#contato {
+            background-image: url(./images/truck-3.jpg);
+            background-size: cover;
+            text-align: center;
+            padding: 2em;
+            background-position: left center;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #fff;
+            margin-bottom: 10px;
+            text-shadow: 6px 7px 11px #0000003d;
+        }
+
+        form {
+            margin: auto;
+            width: 80%;
+            background-color: #fff;
+            border-radius: 1em;
+            padding: 1em;
+            box-shadow: 6px 7px 11px #0000003d;
+        }
+
+        form input, select {
+            width: 100%;
+            margin-bottom: 1em;
+            padding: .8em;
+            border: none;
+            border-bottom: 1px solid lightgray;
+        }
+
+        textarea {
+            width: 100%;
+            border-color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container-principal">
+        <header>
+            <div id="logo">
+                <img src="./images/3e19f99227164132b30516e24318d345.jpg" alt="">
+            </div>
+            <span id="burguer" class="material-icons" title="Menu" onclick="clickMenu()">menu</span>
+            <menu id="itens">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="quem-somos.html">Quem somos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Politica de Privacidade</a></li>
+                </ul>
+            </menu>
+        </header>
+        <section id="contato">
+            <h1>Entre em contato</h1>
+            <form action="#" method="post" autocomplete="on">
+                <input type="text" name="nome" id="nome" placeholder="Nome *" required autocomplete="name"> <br>
+                <input type="email" name="email" id="email" placeholder="email *" required aria-placeholder="email"> <br>
+                <select name="servico" id="servico">
+                    <option value="" selected>Selecione uma opção</option>
+                    <option value="cotacao">Cotação</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="sugertao">Sugestão</option>
+                    <option value="reclamacao   ">Reclamação</option>
+                    <option value="outros">Outros</option>
+                </select> <br>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem aqui * ">
+                </textarea>
+            </form>
+        </section>
+        <footer>
+            <p>
+                Matriz - Avenida Guilherme Cotching, 997 - CEP 02113 - 013 - Vila Maria - São Paulo - SP
+                R 9 SN Qd 27 Lote 8-11 - Polo Empresarial Goias - Aparecida de Goiania - Goias- CEP 74985-130
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
